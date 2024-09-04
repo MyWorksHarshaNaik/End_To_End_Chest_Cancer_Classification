@@ -9,4 +9,10 @@
 python template.py
 ```
 
-### Step 2:
+### Step 2: Install requirements.txt
+
+```bash
+pip install -r requirements.txt 
+```
+
+### Step 3: configure setup.py
