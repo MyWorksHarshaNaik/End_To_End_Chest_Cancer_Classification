@@ -95,3 +95,20 @@ python main.py
 ```bash
 python main.py
 ```
+
+### Step 12:  research/04_model_evaluation_with_mlflow.ipynb
+
+###  dagshub
+[dagshub](https://dagshub.com/)
+
+### Step 13: modular coding
+#### --> update src/cnnClassifier/entity/config_entity.py
+#### --> update src/cnnClassifier/config/configuration.py
+#### --> update src/cnnClassifier/components/model_evaluation_mlflow.py
+#### --> update src/cnnClassifier/pipeline/stage_04_model_evaluation.py
+#### --> update main.py
+#### --> delete the artifacts folder
+#### --> Run main.py
+```bash
+python main.py
+```
