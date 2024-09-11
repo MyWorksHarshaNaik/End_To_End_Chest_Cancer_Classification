@@ -60,3 +60,21 @@ python main.py
 python main.py
 ```
 #### --> add 'artifacts/*' to gitignore
+
+### Step 8:  research/02_prepare_base_model.ipynb
+#### --> update config/config.yaml
+#### --> Update params.yaml
+#### --> Update research/02_prepare_base_model.ipynb
+
+
+### Step 9: modular coding
+#### --> update src/cnnClassifier/entity/config_entity.py
+#### --> update src/cnnClassifier/config/configuration.py
+#### --> update src/cnnClassifier/components/prepare_base_model.py
+#### --> update src/cnnClassifier/pipeline/stage_02_prepare_base_model.py
+#### --> update main.py
+#### --> delete the artifacts folder
+#### --> Run main.py
+```bash
+python main.py
+```
