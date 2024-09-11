@@ -16,3 +16,15 @@ pip install -r requirements.txt
 ```
 
 ### Step 3: configure setup.py
+
+### Step 4: setup src/cnnClassifier/__init__.py
+#### --> creating a logger
+#### --> Create a main.py
+#### --> run a main.py
+
+```bash
+python main.py
+```
+
+### Step 5: setup src/cnnClassifier/utils/common.py
+#### --> ConfigBox and ensure_annotations experiment in research/trials.ipynb
