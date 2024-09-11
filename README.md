@@ -78,3 +78,20 @@ python main.py
 ```bash
 python main.py
 ```
+
+### Step 10:  research/03_model_trainer.ipynb
+#### --> update config/config.yaml
+#### --> Update research/03_model_trainer.ipynb
+
+
+### Step 11: modular coding
+#### --> update src/cnnClassifier/entity/config_entity.py
+#### --> update src/cnnClassifier/config/configuration.py
+#### --> update src/cnnClassifier/components/model_trainer.py
+#### --> update src/cnnClassifier/pipeline/stage_03_model_trainer.py
+#### --> update main.py
+#### --> delete the artifacts folder
+#### --> Run main.py
+```bash
+python main.py
+```
