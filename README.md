@@ -28,3 +28,35 @@ python main.py
 
 ### Step 5: setup src/cnnClassifier/utils/common.py
 #### --> ConfigBox and ensure_annotations experiment in research/trials.ipynb
+
+### Workflows
+#### Update config.yaml
+#### Update secrets.yaml [Optional]
+#### Update params.yaml
+#### Update the entity
+#### Update the configuration manager in src config
+#### Update the components
+#### Update the pipeline
+#### Update the main.py
+#### Update the dvc.yaml
+
+### Step 6:  research/01_data_ingestion.ipynb
+#### --> update config/config.yaml
+#### --> setting up data_ingestion
+#### --> update params.yaml -> first add dummy values (key: val) 
+#### --> create entity -> research/01_data_ingestion.ipynb -> class DataIngestionConfig
+#### --> update src/cnnClassifier/constants/__init__.py 
+#### --> update research/01_data_ingestion.ipynb 
+
+### Step 7: modular coding
+#### --> update src/cnnClassifier/entity/config_entity.py
+#### --> update src/cnnClassifier/config/configuration.py
+#### --> update src/cnnClassifier/components/data_ingestion.py
+#### --> update src/cnnClassifier/pipeline/stage_01_data_ingestion.py
+#### --> update main.py
+#### --> delete the artifacts folder
+#### --> Run main.py
+```bash
+python main.py
+```
+#### --> add 'artifacts/*' to gitignore
