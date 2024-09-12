@@ -1,5 +1,6 @@
 import tensorflow as tf
 from pathlib import Path
+import os
 import mlflow
 import mlflow.keras
 from urllib.parse import urlparse
@@ -50,6 +51,10 @@ class Evaluation:
         save_json(path=Path("scores.json"), data=scores)
         
     def log_into_mlflow(self):
+
+        os.environ["MLFLOW_TRACKING_USERNAME"] = "MyWorksHarshaNaik"
+        os.environ["MLFLOW_TRACKING_PASSWORD"] = "6ccaa8cf03fb213207c2554a0d4b24b2b83d1fc3"
+        
         mlflow.set_registry_uri(self.config.mlflow_uri)
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
         
