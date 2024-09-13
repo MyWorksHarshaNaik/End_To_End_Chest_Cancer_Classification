@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/My_ML_Projs/End_To_End_Chest_Cancer_Classification/mlruns/0/978c80a112ca412da5cc0cc4cab8a929/artifacts
+end_time: 1726233885825
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 978c80a112ca412da5cc0cc4cab8a929
+run_name: victorious-snail-70
+run_uuid: 978c80a112ca412da5cc0cc4cab8a929
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726233866281
+status: 3
+tags: []
+user_id: MyWorksHarshaNaik

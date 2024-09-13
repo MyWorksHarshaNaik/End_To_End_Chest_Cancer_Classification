@@ -116,17 +116,29 @@ python main.py
 ### update --> dvc.yaml
 
 ### DVC cmd
-#### dvc init
+```bash
+dvc init
+```
 
 ## Run this cmd --> to run pipeline
+```bash
+dvc repro
+```
 
-#### dvc repro
-
-### update on terminal --> if any error occur when running -> dvc repo
+### update on terminal --> if any error occur when running -> dvc repro
 #### set PYTHONPATH=D:\My_ML_Projs\End_To_End_Chest_Cancer_Classification
 
 #### dvc dag 
+```bash
+dvc dag 
+```
 
 ### Step 14: create src/cnnClassifier/prediction.py
 
 ### Step 15: create app.py
+
+# Run app.py
+
+```bash
+python app.py
+```

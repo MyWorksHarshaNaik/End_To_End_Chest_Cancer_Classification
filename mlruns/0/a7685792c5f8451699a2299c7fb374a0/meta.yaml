@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/My_ML_Projs/End_To_End_Chest_Cancer_Classification/mlruns/0/a7685792c5f8451699a2299c7fb374a0/artifacts
+end_time: 1726234919185
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a7685792c5f8451699a2299c7fb374a0
+run_name: agreeable-ant-787
+run_uuid: a7685792c5f8451699a2299c7fb374a0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726234902798
+status: 3
+tags: []
+user_id: MyWorksHarshaNaik

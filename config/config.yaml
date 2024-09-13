@@ -3,9 +3,9 @@ artifacts_root: artifacts
 
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  source_URL: https://drive.google.com/file/d/1ZWHb5rwPyT_jWI6Sxk9u7LYWh1XcXivh/view?usp=sharing
+  source_URL: https://drive.google.com/file/d/1j6vGI7OZNC__BbC1srx0ZDp4Vj4d9tfJ/view?usp=sharing
   local_data_file: artifacts/data_ingestion/data.zip
-  unzip_dir: artifacts/data_ingestion/Chest-CT-Scan-data
+  unzip_dir: artifacts/data_ingestion
 
 
 prepare_base_model:
